@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: slash-milujipraci
+  labels:
+    app: slash-milujipraci
+    component: slash-command
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: slash-milujipraci
+  template:
+    metadata:
+      labels:
+        app: slash-milujipraci
+    spec:
+      containers:
+        - name: slash-milujipraci
+          image: fusakla/slash-milujipraci:1.0.0
+          ports:
+            - containerPort: 8080
