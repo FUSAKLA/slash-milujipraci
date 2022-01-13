@@ -26,7 +26,7 @@ go run github.com/fusakla/slash-milujipraci
 #### Docker
 
 ```bash
-docker run -it -p 8080:8080 fusakla/slash-milujipraci 
+docker run -it -p 8080:8080 fusakla/slash-milujipraci:latest
 ```
 
 #### Kubernetes

@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: slash-milujipraci
-          image: fusakla/slash-milujipraci:1.0.0
+          image: fusakla/slash-milujipraci:latest
           ports:
             - containerPort: 8080
