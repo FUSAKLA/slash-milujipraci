@@ -1,5 +1,11 @@
 # Slash command pro milujipraci.cz
 
+[![](https://img.shields.io/github/workflow/status/fusakla/slash-milujipraci/Go)](https://github.com/FUSAKLA/slash-milujipraci/actions)
+[![](https://img.shields.io/github/v/release/fusakla/slash-milujipraci)](https://github.com/FUSAKLA/slash-milujipraci/releases)
+[![](https://img.shields.io/github/downloads/fusakla/slash-milujipraci/total)](https://github.com/FUSAKLA/slash-milujipraci/releases)
+[![](https://img.shields.io/docker/pulls/fusakla/slash-milujipraci)](https://hub.docker.com/repository/docker/fusakla/slash-milujipraci)
+
+
 > This project is by its nature dedicated to czech or
 > slovak speaking users, so I suggest you to either learn Czech or move on.
 >
