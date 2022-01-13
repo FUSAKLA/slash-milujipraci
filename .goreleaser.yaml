@@ -19,7 +19,7 @@ dockers:
       - "fusakla/{{.ProjectName}}:latest"
       - "fusakla/{{.ProjectName}}:{{ .Tag }}"
       - "fusakla/{{.ProjectName}}:v{{ .Major }}"
-      - - "fusakla/{{.ProjectName}}:v{{ .Major }}.{{ .Minor }}"
+      - "fusakla/{{.ProjectName}}:v{{ .Major }}.{{ .Minor }}"
 archives:
   - replacements:
       darwin: Darwin
