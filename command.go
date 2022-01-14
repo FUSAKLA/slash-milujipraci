@@ -85,7 +85,7 @@ func (c *command) Describe(_ chan<- *prometheus.Desc) {
 func (c *command) Collect(metrics chan<- prometheus.Metric) {
 	for _, l := range c.punchLines {
 		metric, err := prometheus.NewConstMetric(
-			prometheus.NewDesc("milujipraci_stats", "How many times has the punch line has been called.", []string{"punch_line"}, map[string]string{}),
+			prometheus.NewDesc("milujipraci_punchline_calls_total", "How many times has the punch line has been called.", []string{"punch_line"}, map[string]string{}),
 			prometheus.CounterValue,
 			float64(l.stats),
 			l.slug,
